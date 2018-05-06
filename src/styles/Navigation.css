@@ -1,0 +1,7 @@
+.navbar-default{
+	background-color: white; 
+    border-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 600; /*This will be the heighest element*/
+}
