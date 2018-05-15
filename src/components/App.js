@@ -5,7 +5,8 @@ import '../styles/App.css';
 
 import Navigation from './Navigation';
 import MainDisplay from './MainDisplay';
-import SplashInfo from './SplashInfo';
+import SplashInfo from './SplashInfoHorizontal';
+import Booking from './Booking';
 
 class App extends Component {
 
@@ -35,11 +36,27 @@ class App extends Component {
         <Navigation> </Navigation>
         <div className="body">
           <section className="main">
-            <MainDisplay></MainDisplay>
+            <MainDisplay></MainDisplay>            
           </section>
-          <section className="details-info">
-            <SplashInfo></SplashInfo>
-         </section>
+         <div className="secondary-container">
+           <div className="banner-container">
+            <div className="banner">
+              Hello
+            </div>
+           </div>
+           <section className="booking-info">
+              <Booking></Booking>
+           </section> 
+           <section className="splash-info">
+              <SplashInfo></SplashInfo>
+            </section>
+            <section className="customer-feedback-info">
+              <div>Customer feed back</div>
+            </section>
+        </div>
+        <div className="footer">
+          This is the footer
+        </div>
         </div>
       </div>
     );

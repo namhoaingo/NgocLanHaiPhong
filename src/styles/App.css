@@ -27,8 +27,8 @@ button{
   border-radius: 4px; 
   cursor: pointer;
   margin: 1rem;
-}
 
+}
 .button:hover{
   transform: translate(0px, -2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
@@ -37,12 +37,6 @@ button{
 .button:active{
   transform: translate(0px, 2px);
   box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
-}
-
-.details-info{
-    z-index: 560;    
-    position: relative;
-    padding-top: 60%;
 }
 
 .main:before {
@@ -58,4 +52,45 @@ button{
     right:0;
     top:0;
     z-index:2; 
+}
+
+
+/*Secondary Container*/
+.secondary-container{
+  z-index: 560;
+  position: relative;
+}
+
+  /*Banner */
+
+    .banner-container{
+      background-color: transparent;
+    }
+
+    .banner{
+      padding-top: 27%;
+      color: white;
+      font-size: 23px;
+    }
+
+  /*End Banner*/
+
+.booking-info{
+    padding-top: 30%;
+}
+
+.splash-info{
+  background-color: wheat;
+}
+
+.customer-feedback-info{
+  background-color: wheat;
+}
+/*Stop Secondary Container*/
+
+
+
+.footer{
+  /*This is a test*/
+  height: 800px;
 }
